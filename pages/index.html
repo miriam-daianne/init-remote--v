@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Shelf</title>
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="shortcut icon" href="../assets/imgs/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <img src="../assets/imgs/favicon.png" alt="Icon">
+        <h1>Bloom Shelf</h1>
+    </nav>
+    
+    <section class="search-bar">
+        <h2>Bloom Shelf</h2>
+        <h3>Procurar livros</h3>
+        <form id="searchForm" action="/search" method="get">
+            <input type="text" name="search" placeholder="Pesquisar...">
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+
+    <main>
+
+       <section class="myList">
+        <div></div>
+        <button>Minha lista</button>
+        <div></div>
+       </section>
+
+       <section class="pages">
+        <a href="./toRead.html"><button><img src="" alt="">To-Read List</button></a>
+        <a href="./favs.html"><button><img src="" alt="">Favoritos</button></a>
+        <button id="recomendations">Recomendações</button>
+       </section>
+
+       <section>
+        <div id="results"></div>
+       </section>
+       
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
